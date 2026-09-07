@@ -1,0 +1,11 @@
+East River Workflow v0.8.2 package validation
+
+- Python source compilation: PASS
+- Pytest suite: 22 passed
+- Numeric Noah-MP Time-index regression: PASS
+  Time=0 -> 2016-10-01 01:00:00
+  Time=85438 -> 2026-06-30 23:00:00
+  record count -> 85439
+- WRF character Times backward-compatibility test: PASS
+
+A full production-data run was not executed in the packaging environment because the HPC datasets are not mounted here. Run `east-river validate` on the HPC before `east-river run-all`.

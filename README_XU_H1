@@ -1,0 +1,4 @@
+python h1_xu_first_level_standalone.py \
+  --isnobal output/output1/tables/isnobal_watershed_daily.csv \
+  --noah output/output1/tables/noahmp_watershed_daily.csv \
+  --output h1_xu_first_level_metrics.csv
